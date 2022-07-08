@@ -1,0 +1,5 @@
+<weapons>
+    <weapon id="1" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
+    <weapon id="2" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
+    <weapon id="3" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
+</weapons>
