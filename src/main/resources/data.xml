@@ -1,5 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <weapons>
-    <weapon id="1" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
-    <weapon id="2" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
-    <weapon id="3" type="Hello" name="Ira" firingRange="45" storeCapacity="15" weight="5" rateOfFire="21" />
+    <weapon firingRange="12" id="1" name="Colt 1905" rateOfFire="3" storeCapacity="7" type="Gun" weight="1"/>
+    <weapon firingRange="1920" id="3" name="Mosin rifle" rateOfFire="10" storeCapacity="5" type="Rifle" weight="4"/>
+    <weapon firingRange="100" id="4" name="Nagan" rateOfFire="7" storeCapacity="7" type="Revolver" weight="1"/>
+    <weapon firingRange="45" id="5" name="Gasser's revolver" rateOfFire="21" storeCapacity="6" type="Revolver" weight="1"/>
+    <weapon firingRange="12" id="8" name="Colt 1905" rateOfFire="3" storeCapacity="7" type="Gun" weight="1"/>
 </weapons>
