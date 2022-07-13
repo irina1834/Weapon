@@ -1,12 +1,14 @@
-package com.weapon.exeption;
+package com.weapon.exeptionhandler;
 
 public class Response {
 
     private String message;
-    public Response(){
 
+    public Response() {
     }
-    public Response(String massage){
+
+    public Response(String message) {
+        this.message = message;
     }
 
     public String getMessage() {

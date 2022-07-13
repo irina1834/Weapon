@@ -1,6 +1,6 @@
-package com.weapon.exeption;
+package com.weapon.exeptionhandler;
 
-import com.weapon.exeption.exceptions.SerialNotFoundException;
+import com.weapon.exeptionhandler.exceptions.SerialNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,6 +26,5 @@ public class DefaultAdvice extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(response, status);
     }
 }
-
 
 

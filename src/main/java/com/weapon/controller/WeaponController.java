@@ -1,12 +1,12 @@
 package com.weapon.controller;
 
 
-import com.weapon.exeption.exceptions.SerialNotFoundException;
+import com.weapon.exeptionhandler.exceptions.SerialNotFoundException;
 import com.weapon.model.Weapon;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.weapon.service.WeaponServiceImpl;
+import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import org.xml.sax.SAXException;
-import com.weapon.service.WeaponService;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -16,13 +16,10 @@ import java.util.List;
 @RestController
 @ResponseBody
 @RequestMapping("/weapons")
+@AllArgsConstructor
 public class WeaponController {
     //внедряем зависимость от WeaponService
-    private final WeaponService weaponService;
-    @Autowired
-    public WeaponController(WeaponService weaponService){
-        this.weaponService=weaponService;
-    }
+    private final WeaponServiceImpl weaponService;
 
     @GetMapping
     public List<Weapon> findAllWeapons() throws ParserConfigurationException, IOException, SAXException {
